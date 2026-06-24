@@ -1,8 +1,8 @@
 class Ronyup < Formula
   desc "CLI for scaffolding RonyKIT workspaces, features, and MCP tooling"
   homepage "https://github.com/clubpay/ronykit/tree/main/ronyup"
-  url "https://github.com/clubpay/ronykit/archive/refs/tags/ronyup/v0.4.6.tar.gz"
-  sha256 "5809489b229e78c1e22c5ac8004011032db861a36ace311f61b0894326ec2607"
+  url "https://github.com/clubpay/ronykit/archive/refs/tags/ronyup/v0.4.7.tar.gz"
+  sha256 "790be5f9e6e600f3d9eeff0f39063e8c343ebfa6205fe5520cc0e35902933667"
   license "BSD-3-Clause"
   head "https://github.com/clubpay/ronykit.git", branch: "main"
 
