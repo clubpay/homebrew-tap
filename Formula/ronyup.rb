@@ -7,22 +7,22 @@ class Ronyup < Formula
   on_macos do
     on_intel do
       url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.4.8/ronyup_0.4.8_darwin_amd64.tar.gz"
-      sha256 "10fda3c8c117b3c50a3b9e90b35930967662cb4a2fff6e2fe524ff8f2b669a8f"
+      sha256 "f2e83f182d4a34fc8433dd442ed32386826330fbd54a02653083d4a9d5aacec4"
     end
     on_arm do
       url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.4.8/ronyup_0.4.8_darwin_arm64.tar.gz"
-      sha256 "535cbfc5c1ec02940aaa3515f796e495b3047b83c54d02d538f0c8b30a1045e2"
+      sha256 "0fdca0dddf51a96a5a3c47a69e66793500555a30844a40c40cb49bae3586d4b7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.4.8/ronyup_0.4.8_linux_amd64.tar.gz"
-      sha256 "5d8dbe378eecf068c37e344a2ae44ac27310a7b92aa54e3635a525ed9cebfef4"
+      sha256 "416a3e9045136b8caae46648aa7b36c96505d50facbb4eb1a04fb3459edf64fe"
     end
     on_arm do
       url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.4.8/ronyup_0.4.8_linux_arm64.tar.gz"
-      sha256 "3370d86925387cef4eb69ba3c61d76df3f36e84cda9b501893370803585aa3bd"
+      sha256 "e4d47c7165cebe4ad46644e2b2744bc88fbcddde52c6001fe88e15837b765e9e"
     end
   end
 
