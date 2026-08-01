@@ -1,28 +1,28 @@
 class Ronyup < Formula
   desc "CLI for scaffolding RonyKIT workspaces, features, and MCP tooling"
   homepage "https://github.com/clubpay/ronykit/tree/main/ronyup"
-  version "0.5.11"
+  version "0.5.15"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.11/ronyup_0.5.11_darwin_amd64.tar.gz"
-      sha256 "bda198f6a7007fb3da9d96277e2f06830bf9195249330459681d84b1134460c0"
+      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.15/ronyup_0.5.15_darwin_amd64.tar.gz"
+      sha256 "ffc69e3bb85ba8ddaeb2f8f6a7b42b4f7b37cda8148b40b9675675b8eacdbed2"
     end
     on_arm do
-      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.11/ronyup_0.5.11_darwin_arm64.tar.gz"
-      sha256 "6b85954e205a144a2904f81d76feb3efcbda8d8cf51a49c8cb8112d2f74cf344"
+      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.15/ronyup_0.5.15_darwin_arm64.tar.gz"
+      sha256 "c9fe33d2813ec0a5980e9ca54b30c3a2de76803a65806d3b2d91325c835d1bf3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.11/ronyup_0.5.11_linux_amd64.tar.gz"
-      sha256 "f29d64d5443441c82997c50c377518b9a79bb408def68b6d514a8945a2aca14c"
+      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.15/ronyup_0.5.15_linux_amd64.tar.gz"
+      sha256 "fa164a71758b175230786a558daa6657bcc1dc0912bcd434a9c479e7fb4ee599"
     end
     on_arm do
-      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.11/ronyup_0.5.11_linux_arm64.tar.gz"
-      sha256 "c048b3e25d1a20640887a47a2288e04f4d0a9f82bac47dad2d969fcac7e12af9"
+      url "https://github.com/clubpay/ronykit/releases/download/ronyup%2Fv0.5.15/ronyup_0.5.15_linux_arm64.tar.gz"
+      sha256 "7bc4fc208b1fc4514f0571fefe11c182fc8422a0919cd48c4334cc178a454016"
     end
   end
 
